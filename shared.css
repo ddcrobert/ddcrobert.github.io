@@ -1,0 +1,160 @@
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    a.bouton, a.bouton:link, a.bouton:visited {
+        margin: 50px 50px 0px 0px;
+        padding: 30px 40px 30px 40px;
+        border-radius: 25px;
+        color: white;
+        background-color: #22427C;
+        text-decoration: none;
+    }
+    a.bouton:hover, a.bouton:active {
+        color: white;
+        background-color: #0080FF;
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+        display: inline-block;
+    }}
+
+    #menu ul, #filters {
+        padding-left: 10px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    #menu li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    #stats #characters, #boxcharacters, #mycharacters {
+        padding-left: 10px;
+    }
+    #stats .right ul {
+        padding-left: 0px;
+    }
+    #stats .right li {
+        display: inline;
+    }
+    #stats table {
+        padding: 5px;
+        display: inline-table;
+    }
+    #stats table tr {
+        /*height: 18px;*/
+    }
+    #stats table td {
+        /*word-break: normal;*/
+    }
+    #stats #characters > li {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    #stats .left {
+        vertical-align: top;
+        display: inline-block;
+        width: 290px;
+    }
+    #stats .left table {
+        margin-top: 5px;
+    }
+    #stats img.full {
+        width: 77px;
+        /*margin-left: 5px;*/
+    }
+    #stats .middle img {
+        margin-left: 7.5px;
+    }
+    #stats .middle {
+        /*display: inline-block;*/
+        /*width: 77px;*/
+        height: 128px;
+    }
+    #stats .right {
+        display: inline-block;
+        width: calc(100% - 290px);
+    }
+    
+    #stats .minileft {
+        /*padding: 5px;*/
+        vertical-align: top;
+        display: inline-block;
+        width: 100px;
+    }
+    #stats .minimiddle {
+        display: inline-block;
+        width: 92px;
+    }
+    #stats .miniright {
+        padding: 5px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    #stats #characters li {
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .minitableparent {
+        width: 300px;
+    }
+    #stats .minitable {
+        display: inline-block;
+        width: 50%;
+    }
+    
+    #gachas img {
+        width: 512px;
+    }
+    
+    #box #boxcharacters li, #box #mycharacters li {
+        cursor: pointer;
+        vertical-align: top;
+        height: 120px;
+        width: 120px;
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    #box #boxcharacters li {
+        background-color: lightgray;
+    }
+    
+    #box #mycharacters li {
+        background-color: #0080FF;
+    }
+    
+    #box .top {
+        margin-top: 0px;
+        top: 0px;
+    }
+    
+    .bottom {
+        height: auto;
+    }
+
+    img:before {  
+        display: block;
+    }
+    
+    #menu ul, #box ul {
+        margin-top: 50px;
+        text-align: center;
+    }
+    #box #tools {
+        padding-left: 10px;
+        margin-top: 50px;
+    }
+    #box #tools li {
+        cursor: pointer;
+        padding: 20px;
+    }
