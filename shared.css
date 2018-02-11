@@ -82,6 +82,11 @@
         width: calc(100% - 290px);
     }
     
+    #stats .right table {
+        display: inline-table;
+        width: 100%;
+    }
+    
     #stats .minileft {
         /*padding: 5px;*/
         vertical-align: top;
@@ -97,19 +102,15 @@
         vertical-align: top;
         display: inline-block;
     }
+    .minitableparent {
+        width: 150px;
+    }
     #stats #characters li {
         background-color: lightgray;
         border-radius: 10px;
         padding: 5px;
         font-size: 12px;
         margin-top: 5px;
-    }
-    .minitableparent {
-        width: 300px;
-    }
-    #stats .minitable {
-        display: inline-block;
-        width: 50%;
     }
     
     #gachas img {
