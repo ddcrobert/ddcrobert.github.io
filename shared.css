@@ -33,7 +33,7 @@
         padding: 20px;
     }
     
-    #stats #characters, #boxcharacters, #mycharacters {
+    #stats #characters, #boxcharacters, #mycharacters, #promote > ul {
         padding-left: 10px;
     }
     #stats .right ul {
@@ -158,4 +158,34 @@
     #box #tools li {
         cursor: pointer;
         padding: 20px;
+    }
+    
+    #promotes > li {
+        margin-top: 20px;
+        vertical-align: top;
+        display: block;
+    }
+    #promote .item {
+        vertical-align: top;
+        width: 114px;
+        height: 144px;
+        cursor: pointer;
+    }
+    #promotes .item span {
+        width: 100%;
+        height: 30px;
+        display: block;
+        text-align: center;
+    }
+    #promote .itemframe {
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+    }
+    #promote .itemimage {
+        z-index: 1;
+        width: 100%;
+        height: calc(100% - 30px);
+        background-repeat: no-repeat;
+        background-position: center; 
     }
