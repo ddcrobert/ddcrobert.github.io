@@ -160,32 +160,70 @@
         padding: 20px;
     }
     
-    #promotes > li {
+    .promotes > li {
         margin-top: 20px;
         vertical-align: top;
         display: block;
     }
-    #promote .item {
+    .promotes .item {
         vertical-align: top;
         width: 114px;
         height: 144px;
         cursor: pointer;
     }
-    #promotes .item span {
+    .promotes .item span {
         width: 100%;
         height: 30px;
         display: block;
         text-align: center;
     }
-    #promote .itemframe {
+    .promotes .itemframe {
         z-index: 2;
         width: 100%;
         height: 100%;
     }
-    #promote .itemimage {
+    .promotes .itemimage {
         z-index: 1;
         width: 100%;
         height: calc(100% - 30px);
         background-repeat: no-repeat;
         background-position: center; 
+    }
+    
+    #promote > div {
+        width: calc(50% - 20px);
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #promote > #right {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+        right: 20px;
+    }
+    
+    #promote > #right {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+        right: 20px;
+    }
+
+    
+    .promotes > li {
+        text-align: left;
+    }
+    
+    #promote .itemUnavailable {
+        opacity: 0.5;
+    }
+    
+    #promote .quest {
+        display: block;
+    }
+    
+    .hidden {
+        display: none;
     }
