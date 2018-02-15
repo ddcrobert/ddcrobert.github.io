@@ -113,6 +113,23 @@
         margin-top: 5px;
     }
     
+    a.promotelink, a.promotelink:link, a.promotelink:visited {
+        margin-left: 10px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 25px;
+        color: white;
+        background-color: #22427C;
+        text-decoration: none;
+        margin-bottom: 20px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    a.promotelink:hover, a.promotelink:active {
+        color: white;
+        background-color: #0080FF;
+        text-decoration: none;
+    }
+    
     #gachas img {
         width: 512px;
     }
@@ -225,5 +242,5 @@
     }
     
     .hidden {
-        display: none;
+        display: none !important;
     }
