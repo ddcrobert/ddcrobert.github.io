@@ -7,7 +7,7 @@
     a.bouton, a.bouton:link, a.bouton:visited {
         margin: 50px 50px 0px 0px;
         padding: 30px 40px 30px 40px;
-        border-radius: 25px;
+        border-radius: 30px;
         color: white;
         background-color: #22427C;
         text-decoration: none;
@@ -177,29 +177,33 @@
         padding: 20px;
     }
     
-    .promotes > li {
-        margin-top: 20px;
+    .promotes, .fullquests {
+        margin-bottom: 30px;
+    }
+    
+    .promotes > li, .fullquests > li {
+        margin-top: 25px;
         vertical-align: top;
         display: block;
     }
-    .promotes .item {
+    .promotes .item, .fullquests .item {
         vertical-align: top;
         width: 114px;
         height: 144px;
         cursor: pointer;
     }
-    .promotes .item span {
+    .promotes .item span, .fullquests .item span {
         width: 100%;
         height: 30px;
         display: block;
         text-align: center;
     }
-    .promotes .itemframe {
+    .promotes .itemframe, .fullquests .itemframe {
         z-index: 2;
         width: 100%;
         height: 100%;
     }
-    .promotes .itemimage {
+    .promotes .itemimage, .fullquests .itemimage {
         z-index: 1;
         width: 100%;
         height: calc(100% - 30px);
@@ -229,7 +233,7 @@
     }
 
     
-    .promotes > li {
+    .promotes > li, .fullquests li {
         text-align: left;
     }
     
@@ -247,7 +251,7 @@
         
     }
     
-    #promote .unique {
+    .unique {
         color: gray;
     }
     
