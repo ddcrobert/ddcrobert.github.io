@@ -238,7 +238,17 @@
     }
     
     #promote .quest {
-        display: block;
+        /* display: block; */
+        width: calc(33% - 40px);
+        padding: 10px 0px 10px 0px;
+        border-radius: 10px;
+        background-color: lightgray;
+        margin: 2px 20px 2px 20px;
+        
+    }
+    
+    #promote .unique {
+        color: gray;
     }
     
     .hidden {
