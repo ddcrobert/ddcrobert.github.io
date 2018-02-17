@@ -17,6 +17,8 @@
         background-color: #0080FF;
         text-decoration: none;
     }
+    
+    
     li {
         list-style-type: none;
         display: inline-block;
@@ -241,14 +243,28 @@
         opacity: 0.5;
     }
     
+    #promote .quest a, #promote .quest a:link, #promote .quest a:visited {
+        color: black;
+        height: 100%;
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        
+    }
+    
+    #promote .quest a:hover, #promote .quest a:active {
+        color: #0080FF;
+    }
+    
     #promote .quest {
         /* display: block; */
         width: calc(33% - 40px);
         padding: 10px 0px 10px 0px;
         border-radius: 10px;
         background-color: lightgray;
-        margin: 2px 20px 2px 20px;
-        
+        margin: 5px 20px 5px 20px;
+        height: 30px;
+        line-height: 30px;
     }
     
     .unique {
