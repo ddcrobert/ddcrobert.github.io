@@ -71,10 +71,10 @@
         width: 77px;
         /*margin-left: 5px;*/
     }
-    #stats .middle img {
+    #stats .mid img {
         margin-left: 7.5px;
     }
-    #stats .middle {
+    #stats .mid {
         /*display: inline-block;*/
         /*width: 77px;*/
         height: 128px;
@@ -273,4 +273,8 @@
     
     .hidden {
         display: none !important;
+    }
+    
+    .buttons-filters {
+        margin-left: 15px;
     }
