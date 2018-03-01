@@ -136,26 +136,21 @@
         width: 512px;
     }
     
-    #box #boxcharacters li, #box #mycharacters li {
+    #box #mycards, #box #cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #box .card {
         cursor: pointer;
-        vertical-align: top;
-        height: 120px;
-        width: 120px;
-        margin: 10px;
-        padding: 5px;
+        line-height: 160px;
+        height: 160px;
+        width: 140px;
     }
     
-    #box #boxcharacters li {
-        background-color: lightgray;
-    }
-    
-    #box #mycharacters li {
-        background-color: #0080FF;
-    }
-    
-    #box .top {
-        margin-top: 0px;
-        top: 0px;
+    #box .card-img-top {
+        height: 92px;
+        width: 92px;
     }
     
     .bottom {
