@@ -135,43 +135,16 @@
     #gachas img {
         width: 512px;
     }
-    
-    #box #mycards, #box #cards {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    #box .card {
-        cursor: pointer;
-        line-height: 160px;
-        height: 160px;
-        width: 140px;
-    }
-    
-    #box .card-img-top {
-        height: 92px;
-        width: 92px;
-    }
-    
-    .bottom {
-        height: auto;
-    }
 
+    /*
     img:before {  
         display: block;
     }
+    */
     
-    #menu ul, #box ul {
+    #menu ul {
         margin-top: 50px;
         text-align: center;
-    }
-    #box #tools {
-        padding-left: 10px;
-        margin-top: 50px;
-    }
-    #box #tools li {
-        cursor: pointer;
-        padding: 20px;
     }
     
     .promotes, .fullquests {
@@ -273,3 +246,100 @@
     .buttons-filters {
         margin-left: 15px;
     }
+    
+    /* Colors */
+    .bg-custom-lightgray {
+        background-color: #EEEEEE;
+    }
+    
+    /* Fonts */
+    
+    
+    /* Box */
+    
+    #box #mycards, #box #cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #box #mycards .card {
+        border: 1px solid #007bff;
+    }
+    
+    #box .card {
+        border: 1px solid #6c757d;
+        cursor: pointer;
+        line-height: 160px;
+        height: 160px;
+        width: 92px;
+    }
+    
+    @media (max-width: 575px) {
+        html {
+            font-size: 8px;
+        }
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767px) {
+        html {
+            font-size: 9px;
+        }
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991px) {
+        html {
+            font-size: 10px;
+        }
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199px) {
+        html {
+            font-size: 11px;
+        }
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+    
+    @include media-breakpoint-up(xl) {
+        html {
+            font-size: 12px;
+        }
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+    
+    /*
+    #box .card-img-top {
+        height: 92px;
+        width: 92px;
+    }
+    */
+    
+    .bottom {
+        height: auto;
+    }
+}
