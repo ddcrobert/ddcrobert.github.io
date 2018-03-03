@@ -224,7 +224,7 @@
     /* Stats */
     
     #stats .col-imgs {
-        
+        width: calc(92px + 51.75px);
     }
     
     #stats .col-button {
@@ -260,8 +260,10 @@
         .full-img {
             height: 92px;
             width: 51.75px;
+        }        
+        #stats .col-imgs {
+            width: calc(92px + 51.75px);
         }
-        
     }
 
     // Medium devices (tablets, less than 992px)
@@ -273,6 +275,9 @@
         .full-img {
             height: 46px;
             width: 25.875px;
+        }        
+        #stats .col-imgs {
+            width: calc(46px + 25.875px);
         }
     }
 
@@ -285,6 +290,9 @@
         .full-img {
             height: 34.5px;
             width: 19.40625px;
+        }        
+        #stats .col-imgs {
+            width: calc(34.5px + 19.40625px);
         }
     }
     
@@ -296,6 +304,9 @@
         .full-img {
             height: 23px;
             width: 12.9375px;
+        }        
+        #stats .col-imgs {
+            width: calc(23px + 12.9375px);
         }
     }
     
