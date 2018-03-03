@@ -223,17 +223,25 @@
     
     /* Stats */
     
+    #stats .col-imgs {
+        
+    }
+    
+    #stats .col-button {
+        
+    }
+    
     #stats .card-block {
         display: flex;
     } 
     
     .small-img {
-        max-height: 92px;
+        height: 92px;
         object-fit: contain;
         width: 64%;
     }
     .full-img {
-        max-height: 92px;
+        height: 92px;
         object-fit: contain;
         width: 36%;
     }
@@ -245,28 +253,49 @@
     
     // Large devices (desktops, less than 1200px)
     @media (max-width: 1199px) {        
-        .skill-img {
-            max-height: 92px;
+        .small-img, .skill-img {
+            height: 92px;
+            width: 92px;
         }
+        .full-img {
+            height: 92px;
+            width: 51.75px;
+        }
+        
     }
 
     // Medium devices (tablets, less than 992px)
     @media (max-width: 991px) {
-        .skill-img {
-            max-height: 46px;
+        .small-img, .skill-img {
+            height: 46px;
+            width: 46px;
+        }
+        .full-img {
+            height: 46px;
+            width: 25.875px;
         }
     }
 
     // Small devices (landscape phones, less than 768px)
     @media (max-width: 767px) {    
-        .skill-img {
-            max-height: 34.5px;
+        .small-img, .skill-img {
+            height: 34.5px;
+            width: 34.5px;
+        }
+        .full-img {
+            height: 34.5px;
+            width: 19.40625px;
         }
     }
     
     @media (max-width: 575px) {
-        .skill-img {
-            max-height: 23px;
+        .small-img, .skill-img {
+            height: 23px;
+            width: 23px;
+        }
+        .full-img {
+            height: 23px;
+            width: 12.9375px;
         }
     }
     
