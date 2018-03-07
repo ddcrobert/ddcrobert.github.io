@@ -1,48 +1,6 @@
 
     
-    #promote > ul {
-        padding-left: 10px;
-    }
-    
-    a.promotelink, a.promotelink:link, a.promotelink:visited {
-        margin-left: 10px;
-        padding: 5px 10px 5px 10px;
-        border-radius: 25px;
-        color: white;
-        background-color: #22427C;
-        text-decoration: none;
-        margin-bottom: 20px;
-        vertical-align: middle;
-        display: inline-block;
-    }
-    a.promotelink:hover, a.promotelink:active {
-        color: white;
-        background-color: #0080FF;
-        text-decoration: none;
-    }
-        
-    .promotes {
-        margin-bottom: 30px;
-    }
-    
-    .promotes > li {
-        margin-top: 25px;
-        vertical-align: top;
-        display: block;
-    }
-    .promotes .item, .fullquests .item {
-        vertical-align: top;
-        width: 114px;
-        height: 144px;
-        cursor: pointer;
-    }
-    .promotes .item span, .fullquests .item span {
-        width: 100%;
-        height: 30px;
-        display: block;
-        text-align: center;
-    }
-    .promotes .itemframe, .itemframe {
+    .itemframe {
         z-index: 2;
         width: 100%;
         height: 100%;
@@ -50,7 +8,7 @@
         background-position: center;
         background-size: contain;
     }
-    .promotes .itemimage, .item-img {
+    .item-img {
         z-index: 1;
         width: 114px;
         height: 114px;
@@ -58,58 +16,9 @@
         background-position: center;
         background-size: 80% 80%; 
     }
-    
-    #promote > div {
-        width: calc(50% - 20px);
-        text-align: center;
-        display: inline-block;
-        vertical-align: top;
-    }
-    
-    #promote > #right {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        right: 20px;
-    }
-    
-    #promote > #right {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        right: 20px;
-    }
-    
-    .promotes > li {
-        text-align: left;
-    }
-    
+        
     #promote .itemUnavailable {
         opacity: 0.5;
-    }
-    
-    #promote .quest a, #promote .quest a:link, #promote .quest a:visited {
-        color: black;
-        height: 100%;
-        width: 100%;
-        display: block;
-        text-decoration: none;
-        
-    }
-    
-    #promote .quest a:hover, #promote .quest a:active {
-        color: #0080FF;
-    }
-    
-    #promote .quest {
-        /* display: block; */
-        width: calc(33% - 40px);
-        padding: 10px 0px 10px 0px;
-        border-radius: 10px;
-        background-color: lightgray;
-        margin: 5px 20px 5px 20px;
-        height: 30px;
-        line-height: 30px;
     }
     
     .unique {
@@ -220,6 +129,9 @@
     
     /* Promote */
     
+    .quest {
+        width: 30%;
+    }
     
     /* Quests */
     
@@ -357,7 +269,7 @@
     
     /* Box */
     
-    #box ul, #gachasbanners ul {
+    #box ul, #gachasbanners ul, .quests {
         display: flex;
         flex-wrap: wrap;
         padding-left: 0px;
