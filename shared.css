@@ -1,275 +1,328 @@
 
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-    }
-
-    a.bouton, a.bouton:link, a.bouton:visited {
-        margin: 50px 50px 0px 0px;
-        padding: 30px 40px 30px 40px;
-        border-radius: 30px;
-        color: white;
-        background-color: #22427C;
-        text-decoration: none;
-    }
-    a.bouton:hover, a.bouton:active {
-        color: white;
-        background-color: #0080FF;
-        text-decoration: none;
-    }
     
-    
-    li {
-        list-style-type: none;
-        display: inline-block;
-    }}
-
-    #menu ul, #filters {
-        padding-left: 10px;
-        margin-top: 50px;
-        text-align: center;
-    }
-    #menu li {
-        list-style-type: none;
-        display: inline-block;
-        padding: 20px;
-    }
-    
-    #stats #characters, #boxcharacters, #mycharacters, #promote > ul {
-        padding-left: 10px;
-    }
-    #stats .right ul {
-        padding-left: 0px;
-    }
-    #stats .right li {
-        display: inline;
-    }
-    #stats table {
-        padding: 5px;
-        display: inline-table;
-    }
-    #stats table tr {
-        /*height: 18px;*/
-    }
-    #stats table td {
-        /*word-break: normal;*/
-    }
-    #stats #characters > li {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        display: block;
-    }
-    #stats .left {
-        vertical-align: top;
-        display: inline-block;
-        width: 290px;
-    }
-    #stats .left table {
-        margin-top: 5px;
-    }
-    #stats img.full {
-        width: 77px;
-        /*margin-left: 5px;*/
-    }
-    #stats .mid img {
-        margin-left: 7.5px;
-    }
-    #stats .mid {
-        /*display: inline-block;*/
-        /*width: 77px;*/
-        height: 128px;
-    }
-    #stats .right {
-        display: inline-block;
-        width: calc(100% - 290px);
-    }
-    
-    #stats .right table {
-        display: inline-table;
-        width: 100%;
-    }
-    
-    #stats .minileft {
-        /*padding: 5px;*/
-        vertical-align: top;
-        display: inline-block;
-        width: 100px;
-    }
-    #stats .minimiddle {
-        display: inline-block;
-        width: 92px;
-    }
-    #stats .miniright {
-        padding: 5px;
-        vertical-align: top;
-        display: inline-block;
-    }
-    .minitableparent {
-        width: 150px;
-    }
-    #stats #characters li {
-        background-color: lightgray;
-        border-radius: 10px;
-        padding: 5px;
-        font-size: 12px;
-        margin-top: 5px;
-    }
-    
-    a.promotelink, a.promotelink:link, a.promotelink:visited {
-        margin-left: 10px;
-        padding: 5px 10px 5px 10px;
-        border-radius: 25px;
-        color: white;
-        background-color: #22427C;
-        text-decoration: none;
-        margin-bottom: 20px;
-        vertical-align: middle;
-        display: inline-block;
-    }
-    a.promotelink:hover, a.promotelink:active {
-        color: white;
-        background-color: #0080FF;
-        text-decoration: none;
-    }
-    
-    #gachas img {
-        width: 512px;
-    }
-    
-    #box #mycards, #box #cards {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    #box .card {
-        cursor: pointer;
-        line-height: 160px;
-        height: 160px;
-        width: 140px;
-    }
-    
-    #box .card-img-top {
-        height: 92px;
-        width: 92px;
-    }
-    
-    .bottom {
-        height: auto;
-    }
-
-    img:before {  
-        display: block;
-    }
-    
-    #menu ul, #box ul {
-        margin-top: 50px;
-        text-align: center;
-    }
-    #box #tools {
-        padding-left: 10px;
-        margin-top: 50px;
-    }
-    #box #tools li {
-        cursor: pointer;
-        padding: 20px;
-    }
-    
-    .promotes, .fullquests {
-        margin-bottom: 30px;
-    }
-    
-    .promotes > li, .fullquests > li {
-        margin-top: 25px;
-        vertical-align: top;
-        display: block;
-    }
-    .promotes .item, .fullquests .item {
-        vertical-align: top;
-        width: 114px;
-        height: 144px;
-        cursor: pointer;
-    }
-    .promotes .item span, .fullquests .item span {
-        width: 100%;
-        height: 30px;
-        display: block;
-        text-align: center;
-    }
-    .promotes .itemframe, .fullquests .itemframe {
+    .itemframe {
         z-index: 2;
         width: 100%;
         height: 100%;
-    }
-    .promotes .itemimage, .fullquests .itemimage {
-        z-index: 1;
-        width: 100%;
-        height: calc(100% - 30px);
         background-repeat: no-repeat;
-        background-position: center; 
+        background-position: center;
+        background-size: contain;
     }
-    
-    #promote > div {
-        width: calc(50% - 20px);
-        text-align: center;
-        display: inline-block;
-        vertical-align: top;
+    .item-img {
+        z-index: 1;
+        width: 114px;
+        height: 114px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%; 
     }
-    
-    #promote > #right {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        right: 20px;
-    }
-    
-    #promote > #right {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        right: 20px;
-    }
-
-    
-    .promotes > li, .fullquests li {
-        text-align: left;
-    }
-    
+        
     #promote .itemUnavailable {
         opacity: 0.5;
-    }
-    
-    #promote .quest a, #promote .quest a:link, #promote .quest a:visited {
-        color: black;
-        height: 100%;
-        width: 100%;
-        display: block;
-        text-decoration: none;
-        
-    }
-    
-    #promote .quest a:hover, #promote .quest a:active {
-        color: #0080FF;
-    }
-    
-    #promote .quest {
-        /* display: block; */
-        width: calc(33% - 40px);
-        padding: 10px 0px 10px 0px;
-        border-radius: 10px;
-        background-color: lightgray;
-        margin: 5px 20px 5px 20px;
-        height: 30px;
-        line-height: 30px;
     }
     
     .unique {
         color: gray;
     }
     
-    .hidden {
-        display: none !important;
+    /* Colors */
+    .bg-custom-lightgray {
+        background-color: #EEEEEE;
     }
     
-    .buttons-filters {
-        margin-left: 15px;
+    /* Fonts */
+    
+    
+    /* Buttons */
+    .btn-group .btn:not(.active) {
+        background-color: #DDDDDD;
     }
+    
+    .btn-group .btn-primary {
+        border-color: #007bff !important;
+    }
+    .btn-group .btn-primary.active {
+        background-color: #007bff !important;
+    }
+    .btn-group .btn-info {
+        border-color: #17a2b8 !important;
+    }
+    .btn-group .btn-info.active {
+        background-color: #17a2b8 !important;
+    }
+    .btn-group .btn-success {
+        border-color: #28a745 !important;
+    }
+    .btn-group .btn-success.active {
+        background-color: #28a745 !important;
+    }
+    .btn-group .btn-danger {
+        border-color: #dc3545 !important;
+    }
+    .btn-group .btn-danger.active {
+        background-color: #dc3545 !important;
+    }
+    
+    /* Common */
+    
+    
+    li {
+        list-style-type: none;
+        display: flex;
+    }
+    
+    html {
+        font-size: 15px;
+    }
+    table {
+        font-size: 12px;
+    }
+    
+    table > tbody > tr:first-child > * {
+        border: none;
+    }
+    
+    /* Helpers */
+    .cursor-pointer {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199px) {
+        html {
+            font-size: 11px;
+        }
+        table {
+            font-size: 10px;
+        }
+    }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991px) {
+        html {
+            font-size: 10px;
+        }
+        table {
+            font-size: 9px;
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767px) {
+        html {
+            font-size: 9px;
+        }
+        table {
+            font-size: 8px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        html {
+            font-size: 8px;
+        }
+        table {
+            font-size: 7px;
+        }
+    }
+    
+    /* Promote */
+    
+    .quest {
+        width: 30%;
+    }
+    
+    /* Quests */
+    
+    
+    
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199px) {
+        .item-img {
+            height: 114px;
+            width: 114px;
+        }
+    }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991px) {
+        .item-img {
+            height: 77px;
+            width: 77px;
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767px) {
+        .item-img {
+            height: 57.75px;
+            width: 57.75px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .item-img {
+            height: 38.5px;
+            width: 38.5px;
+        }
+    }
+    
+    /* Box */
+    
+    /* Stats */
+    
+    #stats .col-imgs {
+        width: calc(92px + 51.75px);
+    }
+    
+    #stats .col-button {
+        
+    }
+    
+    #stats .card-block {
+        display: flex;
+    } 
+    
+    .small-img {
+        height: 92px;
+        object-fit: contain;
+        width: 64%;
+    }
+    .full-img {
+        height: 92px;
+        object-fit: contain;
+        width: 36%;
+    }
+    
+    .skill-img {
+        max-height: 92px;
+        object-fit: contain;
+    }
+    
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199px) {        
+        .small-img, .skill-img {
+            height: 92px;
+            width: 92px;
+        }
+        .full-img {
+            height: 92px;
+            width: 51.75px;
+        }        
+        #stats .col-imgs {
+            width: calc(92px + 51.75px);
+        }
+    }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991px) {
+        .small-img, .skill-img {
+            height: 46px;
+            width: 46px;
+        }
+        .full-img {
+            height: 46px;
+            width: 25.875px;
+        }        
+        #stats .col-imgs {
+            width: calc(46px + 25.875px);
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767px) {    
+        .small-img, .skill-img {
+            height: 34.5px;
+            width: 34.5px;
+        }
+        .full-img {
+            height: 34.5px;
+            width: 19.40625px;
+        }        
+        #stats .col-imgs {
+            width: calc(34.5px + 19.40625px);
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .small-img, .skill-img {
+            height: 23px;
+            width: 23px;
+        }
+        .full-img {
+            height: 23px;
+            width: 12.9375px;
+        }        
+        #stats .col-imgs {
+            width: calc(23px + 12.9375px);
+        }
+    }
+    
+    /* Gachas */
+    
+    #gachasbanners img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    /* Box */
+    
+    #box ul, #gachasbanners ul, .quests {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    
+    #box #mycards .card {
+        border: 1px solid #007bff;
+    }
+    
+    #box .card {
+        border: 1px solid #6c757d;
+        cursor: pointer;
+        line-height: 160px;
+        height: 160px;
+        width: 92px;
+    }
+
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199px) {
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991px) {
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767px) {
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        #box .card {
+            line-height: 80px;
+            height: 80px;
+            width: 46px;
+        }
+    }
+    
+    .bottom {
+        height: auto;
+    }
+}
